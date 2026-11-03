@@ -6,3 +6,6 @@ DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 mkdir -p ~/.config/git
 ln -sf "$DOTFILES_DIR/git/ignore" ~/.config/git/ignore
 ln -sf "$DOTFILES_DIR/CLAUDE.md" ~/CLAUDE.md
+
+# Keep .ai-dev on EFS-backed home; the repo checkout is per-instance.
+[ -e /workspaces/obsidian/.ai-dev ] || ln -s ~/.ai-dev /workspaces/obsidian/.ai-dev
