@@ -1,0 +1,19 @@
+post-start-install.sh
+  s_a8f7d7e07a7da8::t_8f281923eb66c3 9-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.9",
+  "base_commit_sha": "acc16ec7792711c290a9014ea513b4ce8001a597",
+  "prompts": {},
+  "sessions": {
+    "s_a8f7d7e07a7da8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_a8f7d7e07a7da8",
+        "model": "unknown"
+      },
+      "human_author": "Xiaozhou (Joe) Liang <joe.liang@vanta.com>"
+    }
+  }
+}
